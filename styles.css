@@ -1,0 +1,102 @@
+html{
+    background-color: #FAFAF9;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.main-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+.head-image{
+    height: 40px;
+}
+
+.h1-reviewers{
+    font-family: 'Sora', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.text-reviewers{
+    padding-top: 10px;
+    font-family: 'Sora', sans-serif;
+    font-size: 1.25rem;
+    line-height: 150%;
+    color: #52525A;
+}
+
+.reviewers{
+    padding-left: 2.5rem;
+}
+
+.checklist{
+    font-family: 'Sora', sans-serif;
+    font-size: 1rem;
+    line-height: 125%;
+    color: #52525A;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.google{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.meta{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.google-review{
+    padding: 20px;
+    background: white;
+    width: 50%;
+    height: max-content;
+    border-radius: 5%;
+    position: relative;
+    left: 33%;
+    line-height: 150%;
+}
+
+.meta-review{
+    padding: 30px;
+    width: 50%;
+    border-radius: 5%;
+    height: max-content;
+    background: white;
+    line-height: 150%;
+}
+
+.google-header{
+    font-family: 'Sora', sans-serif;
+    font-weight: bold;
+}
+
+.meta-header{
+    font-family: 'Sora', sans-serif;
+    font-weight: bold;
+}
+
+.google-text{
+    font-family: 'Sora', sans-serif;
+    color: #52525A;
+}
+
+.meta-text{
+    font-family: 'Sora', sans-serif;
+    color: #52525A;
+}
+
+.reviews{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
